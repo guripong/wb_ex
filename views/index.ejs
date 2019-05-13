@@ -6,7 +6,8 @@
     <script>
       function getMultipledNumber(){
          var inputNumber = document.getElementById("inputNumber").value;
-         var multipledNumber = Android.getMultiple(inputNumber);
+         var multipledNumber = Android.getMultiple(inputNumber); //안드함수 호출
+
          document.getElementById("result").value = multipledNumber;
       }
     </script>
@@ -19,5 +20,6 @@
       <input type="text" id="result" placeholder="제곱한결과" size="44"/>
       <input type="button" id="runExample" onclick="getMultipledNumber()" value="제곱 구하기" />
     </div>
+
   </body>
 </html>
